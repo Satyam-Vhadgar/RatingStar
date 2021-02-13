@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.FirstSection{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    position: relative;
+
+}
+.FirstDiv{
+    flex: 60%;
+    height: 700px;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(images/1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.FirstDiv:hover{
+    cursor: pointer;
+
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/1.jpg);
+}
+.Logo{
+    padding: 50px;
+}
+
+.FirstDiv .Logo a{
+    text-decoration: none;
+}
+.MovieContent{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 2%;
+}
+.MovieContent h2{
+    font-size: 50px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.MovieContent p{
+    color: white;
+    line-height: 1.5;
+    word-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+.MovieContent:hover{
+    opacity: 1.0;
+}
+.MovieRating{
+  background-color: yellow; /* Green */
+  border: none;
+  color: black;
+  padding: 6px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.StarRating{
+
+}
+.fa-star{
+    color: white;
+}
+.fa-clock{
+    color: white;
+}
+.checked{
+    color: orange;
+}
+.Logo h1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Libre Caslon Display', serif;
+}
+.Logo a {
+    text-decoration: none;
+}
+.ReadMore{
+  background-color: #060B0F;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+    border-radius: 5px;
+}
+.ReadMore:hover{
+  background-color: white;
+  color: black;
+}
+.SecondDiv{
+    flex: 40%;
+    height: 350px;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(images/2.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.SecondDiv:hover{
+
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/2.jpg);
+
+
+}
+.MovieContent2{
+    margin-top: 15%;
+    margin-left: 2%;
+}
+.MovieContent2 h2{
+    font-size: 40px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ThirdDiv{
+    display: flex;
+    width: 40%;
+    height: 350px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.FourthDiv{
+    flex: 20%;
+    height: 350px;
+    background: red;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(images/4.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.FourthDiv:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/4.jpg);
+}
+
+.MovieContent3 {
+    margin-top: 25%;
+    margin-left: 5%;
+}
+
+.MovieContent3 h2{
+    font-size: 25px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.FifthDiv{
+    flex: 20%;
+    height: 350px;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(images/3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.FifthDiv:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/3.jpg);
+}
+
+/********************************Nav Bar*************************************************************/
+
+.NavSection{
+    background: #0C2738;
+    width: 100%;
+    height: 60px;
+}
+.navbar{
+    background: #0C2738 !important;
+}
+.navbar-nav li a{
+    color: #6FA9BB !important;
+    margin-left: 25px;
+}
+.navbar-nav li a:hover{
+    color: white !important;
+    border: none;
+    border-bottom: 1px solid yellow;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-size:
+}
+.fa-bars{
+    color: white;
+    border: none;
+    outline: none;
+}
+
+/********************************HighLight Section********************************************************/
+
+.HighlightSection{
+    background: #081B27;
+    width: 100%;
+    height: 900px;
+}
+.Highlight{
+    padding-top: 100px;
+}
+.Highlight h1{
+    color: white;
+   font-family: 'Raleway', sans-serif !important;
+}
+.Highlight p {
+    font-family: 'Montserrat', sans-serif!important;
+    color: #7FA9B7;
+    margin-bottom: 50px;
+}
+
+.card{
+    background: transparent!important;
+}
+.Box img{
+    margin-bottom: 20px;
+}
+.Box img:hover{
+    box-shadow: 5px 5px black;
+    cursor: pointer;
+}
+.Contain h2{
+    color: #fff;
+}
+.fa-tags{
+    color: orange;
+}
+.Label{
+    color: #fff;
+}
+/*****************************Entire Image Section********************************/
+
+.EntireImage{
+    width: 100%;
+    height: 1000px;
+    background: black;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(images/panther.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.EntireImage:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/panther.jpg);
+}
+.EntireImageContent {
+    position: absolute;
+    top: 30%;
+    color: white;
+}
+.EntireImageContent h2{
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+.EntireImageContent p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.9;
+    word-spacing: 2px;
+}
+/*******************************New Release Section***************************/
+
+
+.NewReleases{
+    width: 100%;
+    height: 300px;
+    background: #081B27;
+    padding-top: 5%;
+}
+.Release h1{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 90px;
+}
+.Release h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #266EA6;
+}
+
+
+/*******************************Multiple image Section***************************/
+.Multiple{
+    width: 100%;
+    height: 900px;
+    background:#081B27;
+}
+
+.one{
+    width: 100%;
+    height: 400px;
+
+}
+.two{
+    width: 100%;
+    height: 200px;
+
+}
+.three{
+    width: 100%;
+    height: 200px;
+
+}
+.four{
+    width: 100%;
+    height: 200px;
+
+}
+.five{
+    width: 100%;
+    height: 200px;
+}
+.MultiplePic{
+    margin-top: 50px;
+}
+.MultiplePic h2{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.BoxShadow img:hover{
+    box-shadow: 5px 5px black;
+    cursor: pointer;
+}
+/*********************************Search Bar***************************************/
+.SearchBar{
+    width: 100%;
+    height: 250px;
+    background:#081B27;
+}
+.SearchBar h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #F19426;
+}
+.bar{
+    width: 60%;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    margin: 10px;
+}
+.fa-search{
+    background: #081B27;
+    color: white;
+    font-size: 30px;
+}
+.SearchBar button{
+    border: none;
+    cursor: pointer;
+    line-height: 50px;
+}
+.fa-search:hover{
+
+    color:#F19426;
+}
+/*********************************Footer***************************************/
+.footerBar{
+    width: 100%;
+    height: 360px;
+    background:#081B27;
+}
+.fab{
+    margin-right: 10px;
+}
+
+.Content p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+.footerBar .Content a{
+    text-decoration: none;
+}
+.Content a p:hover{
+    color:#F19426;
+}
+.Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Content h4{
+    color: #fff;
+}
+.line{
+    width: 100%;
+    background: grey;
+    margin-top: 100px;
+}
+
+.footerBar p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.CreatedBy{
+    color:#F19426;
+    font-family: 'Raleway', sans-serif;
+}
+
+.CreatedBy:hover{
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-bottom: 2px solid #F19426;
+}
+
+
+/*************************Media Query************************************************/
+@media only screen and (max-width: 1007px){
+
+    .FirstSection{
+        flex-direction: column;
+        height: 1150px;
+    }
+
+    .ThirdDiv{
+        display: none;
+    }
+    .FifthDiv{
+        display: none;
+    }
+    .HighlightSection{
+        height: 1300px;
+    }
+    .Box{
+        margin-bottom: 30px;
+    }
+    .Multiple{
+    height: 1800px;
+    }
+    .one{
+        margin-bottom: 450px;
+    }
+    .two{
+        margin-bottom: 250px;
+    }
+    .footerBar{
+        height: 550px;
+    }
+    .Content{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 640px){
+
+    .MovieContent{
+        position: absolute;
+        top: 25%;
+        left: 2%;
+
+    }
+    .MovieContent p {
+        display: none;
+    }
+
+    .HighlightSection{
+        height: 2300px;
+    }
+    .Multiple{
+        height: 2700px;
+    }
+    .Oblivion{
+        margin-bottom: 250px;
+    }
+    .Gangster{
+        margin-bottom: 250px;
+    }
+    .footerBar{
+        height: 950px;
+    }
+}
+
+/************************************The END*************************************/

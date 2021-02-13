@@ -1,0 +1,12 @@
+Logo
+Libre Caslon Display {font-family: 'Libre Caslon Display', serif;}
+
+Heading
+Raleway {font-family: 'Raleway', sans-serif;}
+
+Paragraph
+Montserrat {font-family: 'Montserrat', sans-serif;}
+
+
+Combine Main Link
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Montserrat&family=Raleway:wght@600&display=swap" rel="stylesheet">
